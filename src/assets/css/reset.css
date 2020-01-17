@@ -1,0 +1,107 @@
+@charset "utf-8";
+body {
+  color: #333;
+  font-family: PingFangSC-Regular, Verdana, Arial, sans-serif;
+  font-size: 0;
+}
+/* 将标签默认的间距设为0   */
+body,ul,p,h1,h2,h3,h4,h5,h6,dl,dd,input,select,form{
+  margin:0;padding:0;
+}
+html {
+  font-size: 10vw; 
+}
+/* 让h标签继承body内设置的字体大小 */
+h1,h2,h3,h4,h5,h6{
+  font-size:100%;
+}
+body,
+header,
+footer,
+nav,
+section,
+article,
+aside,
+figure,
+figcaption,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div,
+tr,
+a {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input,
+select {
+  vertical-align: middle;
+  outline: none;
+  border: 0 none;
+}
+
+textarea,
+input {
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0px;
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  border: 0 none;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.o-hidden {
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  zoom: 1;
+  clear: both;
+  height: 0;
+}
